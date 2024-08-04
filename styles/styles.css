@@ -1,0 +1,31 @@
+body {
+  font-family: Azeret-Mono, monospace;
+  margin: 0;
+}
+
+button{
+  font-family:Azeret Mono ;
+  font-size: 20px;
+  border: 1px solid black;
+  height: 48px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+.name {
+  margin-left: 100px;
+}
+
+.download-resume {
+  width: 228px;
+  height: 58px;
+  margin-right: 100px;
+}
