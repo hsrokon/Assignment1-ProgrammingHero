@@ -52,6 +52,7 @@ button:hover {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  text-align: center;
 
   background-image: url(../assets/bg.png);
   padding-top: 20px;
@@ -74,9 +75,25 @@ button:hover {
 
 /* body middle section  */
 
+.middle-section {
+  background-color: rgba(13, 19, 33, 0.02);
+  padding: 110px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.question {
+  text-align: center;
+}
+
 .reason {
   display: flex;
   align-content: space-between;
+
+  background-color: white;
+  padding: 20px;
 }
 
 .learn-more {
