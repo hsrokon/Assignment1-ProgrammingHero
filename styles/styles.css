@@ -127,3 +127,36 @@ button:hover {
   border: 1px solid black;
   border-radius: 7px;
 }
+
+.developer-journey-text {
+  text-align: center;
+}
+
+.developer-journey {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.language {
+  height: auto;
+  width: 200px;
+  padding: 25px;
+  border-radius: 7px;
+}
+
+.skill-details {
+  font-size: 13px;
+}
+
+.html{
+  background-color: rgb(252, 231, 231);
+}
+
+.css {
+  background-color: rgb(220, 250, 250);
+}
+
+.js{
+  background-color: rgb(247, 235, 219);
+}
