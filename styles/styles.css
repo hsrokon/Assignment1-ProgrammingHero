@@ -147,6 +147,8 @@ button:hover {
 
 .skill-details {
   font-size: 15px;
+  color: rgb(159, 156, 156);
+  font-weight: 600;
 }
 
 .learn-more2 {
@@ -178,4 +180,50 @@ button:hover {
 
   display: flex;
   gap: 30px;
+}
+
+
+/* ........ */
+.feedback {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.2)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.feedback-input {
+  display: flex;
+  justify-content: center;
+}
+
+.input-submit {
+  height: 45px;
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding-left: 15px;
+  width: 40%;
+  font-size: 15px;
+}
+
+.submit-button {
+  height: 47px;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+  font-size: 17px ;
+  border: 2px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
 }
