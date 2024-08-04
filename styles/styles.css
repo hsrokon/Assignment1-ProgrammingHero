@@ -52,6 +52,13 @@ button:hover {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+
+  background-image: url(../assets/bg.png);
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .visit-me {
