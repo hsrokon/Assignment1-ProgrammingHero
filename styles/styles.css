@@ -2,6 +2,7 @@
 body {
   font-family: Azeret-Mono, monospace;
   margin: 0;
+  margin-bottom: 100px;
 }
 
 button{
@@ -51,4 +52,29 @@ button:hover {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+}
+
+.visit-me {
+  color: white;
+  background-color: black;
+  border: none;
+}
+.visit-me:hover{
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+/* body middle section  */
+
+.reason {
+  display: flex;
+  align-content: space-between;
+}
+
+.learn-more {
+  border-radius: 0px;
+  border: 2px solid rgb(126, 123, 123);
+  color: rgb(126, 123, 123);
+  font-weight: 500;
 }
