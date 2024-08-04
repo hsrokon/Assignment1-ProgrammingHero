@@ -1,3 +1,4 @@
+/* defaults */
 body {
   font-family: Azeret-Mono, monospace;
   margin: 0;
@@ -11,8 +12,16 @@ button{
   width: 150px;
   border-radius: 8px;
   background-color: white;
+  cursor: pointer;
 }
 
+button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+/* header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -23,9 +32,23 @@ button{
 .name {
   margin-left: 100px;
 }
+.name-link {
+  cursor: pointer;
+  /* to remove all the default text decoration */
+  text-decoration: inherit;
+  color: inherit;
+}
 
 .download-resume {
   width: 228px;
   height: 58px;
   margin-right: 100px;
+}
+
+/* body upper section */
+.upper-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
