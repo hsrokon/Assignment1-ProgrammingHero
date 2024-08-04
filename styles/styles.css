@@ -115,7 +115,9 @@ button:hover {
   flex-direction: column;
 }
 
-.personal-journey-text {
+.personal-journey-text,
+.developer-journey-text,
+.future-developer-journey-text {
   text-align: center;
 }
 
@@ -128,14 +130,12 @@ button:hover {
   border-radius: 7px;
 }
 
-.developer-journey-text {
-  text-align: center;
-}
-
+/* ........ */
 .developer-journey {
   display: flex;
   justify-content: space-evenly;
   gap: 30px;
+  margin-bottom: 80px;
 }
 
 .language {
@@ -146,17 +146,36 @@ button:hover {
 }
 
 .skill-details {
-  font-size: 13px;
+  font-size: 15px;
+}
+
+.learn-more2 {
+  color: rgb(36, 35, 35);
 }
 
 .html{
   background-color: rgb(252, 231, 231);
 }
-
 .css {
   background-color: rgb(220, 250, 250);
 }
-
 .js{
   background-color: rgb(247, 235, 219);
+}
+
+/* ........ */
+.future-developer-journey {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.future-projects {
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 50px;
+  padding: 20px;
+
+  display: flex;
+  gap: 30px;
 }
