@@ -107,3 +107,23 @@ button:hover {
   font-weight: 500;
   margin-top: 25px;
 }
+
+/* lower middle section  */
+
+.my-personal-journey {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-journey-text {
+  text-align: center;
+}
+
+.personal-journey-video {
+  padding: 60px;
+  margin: 70px;
+  margin-top: 20px;
+  align-self: center;
+  border: 1px solid black;
+  border-radius: 7px;
+}
