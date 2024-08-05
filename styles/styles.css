@@ -5,8 +5,13 @@ body {
   /* margin-bottom: 100px; */
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 button{
-  font-family:Azeret Mono ;
+  /* font-family:Azeret Mono ; */
+  /* Declaring font-family again doesn't work | body font-family is enough */
   font-size: 20px;
   border: 1px solid black;
   height: 48px;
@@ -29,7 +34,7 @@ button:hover {
   align-items: center;
   height: 120px;
 }
-
+/* margin: 50px 150px; ~ Ashraful */
 .name {
   margin-left: 100px;
 }
@@ -147,8 +152,8 @@ button:hover {
 }
 
 .skill-details {
-  font-size: 15px;
-  color: rgb(159, 156, 156);
+  font-size: 14px;
+  color: rgb(106, 105, 105);
   font-weight: 600;
 }
 
